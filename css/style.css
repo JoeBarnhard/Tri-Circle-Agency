@@ -128,3 +128,8 @@ hr {
     margin:auto;
 }
 
+.presentation, .intro, .images {
+    display:flex;
+}
+
+
