@@ -10,13 +10,88 @@ CSS Styling in the house!
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-transform: none;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-size:62.5%;
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
 
 /* START YOUR ENGINES  */
 
+header {
+    display: flex;
+    /* flex-wrap:wrap-reverse; */
+    /* justify-content: center; */
+   
+    width: 90%;
+    /* height: 5rem; */
+    margin: auto; 
+}
 
+/* LOGO SECTION */
+
+.logo-container,
+.nav-links,
+.cart {
+    display:flex;
+}
+
+.logo-container {
+    align-items:center;
+    background: lightgreen;
+    flex: 1;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-width:3.5rem;
+    object-fit: cover; 
+    padding-left:.2rem;
+    font-weight:600;
+    font-size:1.1rem;
+}
+
+.class {
+    /* display:flex; */
+    /* flex-wrap:wrap-reverse; */
+}
+
+
+
+/* NAV SECTION */
+
+nav{
+    display:flex;
+    background: lightblue;
+    flex: 2;
+}
+
+/* CART  */
+.cart{ 
+    display:flex;
+    justify-content:center;
+    width: auto;
+    height: auto;
+    max-width:2.5rem;
+    max-height:2.5rem;
+
+        object-fit: contain; /* Fit logo in the image size */
+            -o-object-fit: contain; /* Fit logo fro opera browser */
+        object-position: top; /* Set logo position */
+            -o-object-position: top; /* Logo position for opera browser */
+        
+    /* background: lightgoldenrodyellow; */
+    flex: 1;
+}
+
+/* -------------------------------- MAIN PAGE -------------------------------- */
