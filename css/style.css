@@ -33,9 +33,11 @@ img {
 
 header {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto; 
     align-items:center; 
+    
+    
     
 }
 
@@ -45,6 +47,7 @@ header {
 .nav-links,
 .cart {
     display:flex;
+    
 }
 
 .logo-container {
@@ -103,7 +106,7 @@ a:hover {
 /* CART  */
 .cart{ 
     
-    justify-content:center;
+    justify-content:flex-end;
     width: auto;
     height: auto;
     max-width:2.5rem;
@@ -119,3 +122,9 @@ a:hover {
 }
 
 /* -------------------------------- MAIN PAGE -------------------------------- */
+
+hr {
+    width:85%;
+    margin:auto;
+}
+
