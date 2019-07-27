@@ -25,16 +25,18 @@ img {
   }
 
 
+
+
 /* START YOUR ENGINES  */
+
+
 
 header {
     display: flex;
-    /* flex-wrap:wrap-reverse; */
-    /* justify-content: center; */
-   
     width: 90%;
-    /* height: 5rem; */
     margin: auto; 
+    align-items:center; 
+    
 }
 
 /* LOGO SECTION */
@@ -46,9 +48,9 @@ header {
 }
 
 .logo-container {
-    align-items:center;
-    background: lightgreen;
-    flex: 1;
+    /* align-items:center; */
+    /* background-color: pink; */
+    flex: .45;  
 }
 
 .logo {
@@ -56,29 +58,51 @@ header {
     height: auto;
     max-width:3.5rem;
     object-fit: cover; 
-    padding-left:.2rem;
+    
+}
+.logo2 {
+    display:flex;
+    align-items:center;
+    padding-left:.1rem;
     font-weight:600;
     font-size:1.1rem;
+    color:#363636;
+   
 }
-
-.class {
-    /* display:flex; */
-    /* flex-wrap:wrap-reverse; */
-}
-
 
 
 /* NAV SECTION */
 
-nav{
+nav, ul, li, a {
     display:flex;
-    background: lightblue;
-    flex: 2;
+    justify-content:center;
+    margin-top:.05rem;
+    flex:1;
+    margin-left:-1rem;
+    padding-left:-2rem;
+    /* background-color:orange; */
+    text-decoration: none;
+    font-size:1rem;
+    color:#363636;
 }
+a:visited {
+    color:#363636;
+}
+a:active {
+    color:#6b6b6b;
+}
+a:hover {
+    color:hotpink;
+}
+
+
+    
+
+
 
 /* CART  */
 .cart{ 
-    display:flex;
+    
     justify-content:center;
     width: auto;
     height: auto;
