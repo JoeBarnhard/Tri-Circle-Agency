@@ -163,20 +163,34 @@ h1 {
 .creative {
     display:flex;
     margin-top:1rem;
+    margin-bottom:2rem;
+    /* border: solid red 3px; */
+
 }
 
+
 h2 {
-    align-items:center;
+    /* justify-content:flex-start; */
     font-size:1.8rem;
     color:#525252; 
     /* margin:.2rem 0 0 9.5rem; */
     flex:1.75;
-    text-align:center;
+    /* text-align:left; */
     padding:.5rem;
+    width:15%;
+    margin:1rem 0 10rem 0;
+    line-height:2rem;
 }
-
+span {
+    color:	#FF8C00;
+    font-size:2rem;
+}
+span2 {
+    color:	#FFA500;
+    font-size:2rem;
+}
 p {
-    align-items:center;
+    /* align-items:center; */
     /* text-align: center; */
     flex-direction:row;
     font-size:1.2rem;
