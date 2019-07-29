@@ -193,3 +193,10 @@ p {
     flex:4;
     width:45%;
 }
+.silo {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin:auto;
+    padding:2.5rem;
+}
